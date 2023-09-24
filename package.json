@@ -1,0 +1,33 @@
+{
+  "name": "namaste_scrap_app",
+  "version": "1.0.0",
+  "description": "Biulding the react app from scratch",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bheemkollati/Ignite-react-app.git"
+  },
+  "author": "Bheem kollati",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bheemkollati/Ignite-react-app/issues"
+  },
+  "homepage": "https://github.com/bheemkollati/Ignite-react-app#readme",
+  "devDependencies": {
+    "@babel/core": "^7.22.11",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "parcel": "^2.9.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}

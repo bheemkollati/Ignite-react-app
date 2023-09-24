@@ -1,0 +1,45 @@
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 5px;
+}
+.header-left{
+    display: flex;
+    align-items: center;
+}
+.header-left > a >img {
+    height: 100px;
+    width: 100px;
+}
+
+.header-right > ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+.header-right > ul > li {
+    padding: 5px;
+}
+.cart-container{
+    display: inline-grid;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 5px;
+}
+.cart-list{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+.footer-container{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
